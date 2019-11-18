@@ -1,0 +1,114 @@
+main {
+    background-color: #F2F2F2;
+    width: 900px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #919191;
+    border-radius: 40px;
+}
+html {
+    display: flex;
+    justify-content: center;
+    background-color:#E5E5E5;
+}
+#name-div {
+    display: flex;
+    flex-direction: row;
+}
+textarea {
+    width: 450px;
+    height: 150px;
+}
+#firstName {
+    width: 70px;
+}
+#lastName {
+    width: 120px;
+}
+input[type=text] {
+    height: 20px;
+}
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+fieldset {
+    margin-top:10px;
+    border: none;
+}
+#org {
+    width: 400px;
+    margin-bottom: 10px;
+}
+#addDiv1 {
+    display: flex;
+    flex-direction: column;
+}
+#line2 {
+    margin-top: 5px;
+}
+#addDiv2, #addDiv3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.addInput, select {
+    width: 300px;
+    height: 20px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+#str, #line2 {
+    width: 500px;
+}
+#email {
+    width: 250px;
+    margin-left: 10px;
+    height: 20px;
+    margin: 10px auto 10px auto;
+}
+#submit {
+    margin: 30px auto 20px auto;
+    display: flex;
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+}
+input[type=radio]{
+    margin-right: 8px;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+input[type=text], input[type=submit], select {
+    border-style: outset;
+}
+#name-div, #org-div, #textarea1-div, #textarea2-div, #email-div {
+    margin-left: 17px;
+}
+.class1 {
+    opacity: 70%;
+    font-size: 13px;
+    font-family: monospace;
+}
+#name-div:hover, #div-2:hover, #org-div:hover, #address:hover, input[type=submit]:hover, #email-div:hover, #fieldset1:hover, #fieldset2:hover, #fieldset3:hover, #textarea1-div:hover, #textarea2-div:hover {
+    border-radius: 10px;
+    animation-name: hover1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hover1 {
+    0% {
+       border-color:whitesmoke;
+    }
+    50% {
+        border-color: white;
+    }
+    100% {
+        border-color: #919191;
+        background-color: #D9D9D9;
+    }
+}
